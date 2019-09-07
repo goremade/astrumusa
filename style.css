@@ -91,7 +91,8 @@ li {
 
 .site-footer p {
 	background-color: #EF4623;
+	font-size: 9px;
 	width: 30rem;
-	padding: 1rem;
+	padding: 2rem 3rem 2rem 3rem;
 	border-radius: 10px;
 }
