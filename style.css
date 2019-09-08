@@ -13,7 +13,7 @@ body {
 	font-family: "Helvetica Neue";
 	font-size: 12px;
 	line-height: 1.1;
-	padding: 2rem 3rem 2rem 3rem;
+	padding: 2rem 2rem 2rem 2rem;
 }
 
 ul {
@@ -98,6 +98,17 @@ li {
 	margin-left: 2rem;
 }
 
+.site-side-nav a {
+	color: #000;
+	text-decoration: none;
+}
+
+.site-side-nav a:hover {
+	color: #e1251b;
+
+}
+
+
 .site-side-nav input {
 	background-color: transparent;
 	font-family: "Helvetica Neue";
@@ -135,9 +146,9 @@ li {
 
 .product-item {
 	display: block;
-    width: 25%;
+    width: 33.3333%;
     height: auto;
-    padding: 0.5rem;
+    padding: 4rem;
     box-sizing: border-box;
     margin-bottom: 1rem;
 
@@ -154,7 +165,7 @@ li {
 
 .site-footer {
 	width: 100%;
-	background-color: #EF4623;
+	background-color: #e1251b;
 	font-size: 9px;
 	text-align: right;
 	line-height: 1.5;
