@@ -111,11 +111,15 @@ li {
 
 .site-footer {
 	width: 100%;
-	padding: 1rem 0 0 0;
+	background-color: #EF4623;
+	font-size: 9px;
+	width: 100%;
+	padding: 2rem 3rem 2rem 3rem;
+	border-radius: 10px;
 }
 
 .site-footer-nav {
-	margin: 1rem 0 1rem 0
+	margin-bottom: 1rem;
 }
 
 .site-footer-nav li {
@@ -123,12 +127,12 @@ li {
 	margin: 0.5rem;
 }
 
+.site-footer-nav li:first-child {
+	margin-left: 0;
+}
+
 .site-footer p {
-	background-color: #EF4623;
-	font-size: 9px;
-	width: 100%;
-	padding: 2rem 3rem 2rem 3rem;
-	border-radius: 10px;
+
 }
 
 
