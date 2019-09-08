@@ -12,6 +12,7 @@ body {
 	display: block;
 	font-family: "Helvetica Neue";
 	font-size: 12px;
+	line-height: 1.1;
 	padding: 2rem 3rem 2rem 3rem;
 }
 
@@ -80,20 +81,26 @@ li {
 	font-size: 1.5rem;
 	font-weight: 500;
 	text-transform: uppercase;
-	width: 20rem;
 	padding: 2rem 0 1rem 0;
+}
+
+.site-side-nav li {
+	margin-left: 2rem;
 }
 
 .site-side-nav input {
 	background-color: transparent;
-	font-family: 'Oswald', sans-serif;
-	font-size: 1rem;
+	font-family: "Helvetica Neue";
+	font-size: 1.5rem;
 	font-weight: 500;
 	text-transform: uppercase;
 	padding: 0;
 	margin: 0;
 	outline: none;
-	border: none;
+	border: 0;
+
+	-webkit-appearance: none;
+	-webkit-border: none;
 }
 
 .site-side-nav input::placeholder {
@@ -103,6 +110,7 @@ li {
 /***** FOOTER *****/
 
 .site-footer {
+	width: 100%;
 	padding: 1rem 0 0 0;
 }
 
@@ -118,7 +126,7 @@ li {
 .site-footer p {
 	background-color: #EF4623;
 	font-size: 9px;
-	width: 30rem;
+	width: 100%;
 	padding: 2rem 3rem 2rem 3rem;
 	border-radius: 10px;
 }
