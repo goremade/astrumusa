@@ -116,7 +116,7 @@ select {
 /***** SIDE-NAV *****/
 .site-side-nav {
 	font-family: "Helvetica Neue";
-	font-size: 1.5rem;
+	font-size: 1rem;
 	font-weight: 500;
 	text-transform: uppercase;
 	line-height: 1.2;
@@ -192,6 +192,7 @@ select {
 /***** PRODUCT PAGE *****/
 
 .product-image-container {
+	position: ;
 	width: 50%;
 	padding: 0 1rem 0 1rem;
 	float: left;
