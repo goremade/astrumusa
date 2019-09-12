@@ -178,7 +178,7 @@ select {
 
 .product-item {
 	display: block;
-    width: 33.333%;
+    width: 25%;
     height: auto;
     padding: 0rem 1rem 1.5rem 1rem;
 }
