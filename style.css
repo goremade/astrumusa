@@ -84,7 +84,7 @@ select {
 
 .site-header-nav {
 	font-family: "Helvetica Neue";
-	font-size: 1.5rem;
+	font-size: 1rem;
 	font-weight: 500;
 	text-transform: uppercase;
 	text-align: right;
@@ -104,10 +104,10 @@ select {
 	background-color: #000;
 	color: #fff;
 	font-weight: 300;
-	font-size: 1rem;
+	font-size: 0.8rem;
 	line-height: 0;
-	width: 2rem;
-	height: 2rem;
+	width: 1.5rem;
+	height: 1.5rem;
 	margin-left: 0.5rem;
 	border-radius: 50%;
 }
@@ -194,6 +194,7 @@ select {
 .product-image-container {
 	position: ;
 	width: 50%;
+	top: 0;
 	padding: 0 1rem 0 1rem;
 	float: left;
 }
@@ -206,7 +207,7 @@ select {
 
 .product-form {
 	font-size: 1rem;
-	text-align: center;
+	text-align: left;
 	width: 50%;
 	padding: 0 2rem 0 2rem;
 	float: left;
@@ -220,7 +221,7 @@ select {
 	font-size: 1rem;
 	font-weight: 500;
 	text-transform: uppercase;
-	width: 60%;
+	width: 100%;
 	padding: 0.5rem 1rem 0.5rem 1rem;
 	border: 1px solid #000;
 	border-radius: 0;
@@ -236,7 +237,7 @@ select {
 	font-size: 1rem;	
 	font-weight: 500;
 	text-transform: uppercase;
-	width: 60%;
+	width: 100%;
 	padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 	border: none;
 	border-radius: 0;
